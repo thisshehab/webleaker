@@ -1,0 +1,1 @@
+sudo docker run -v ./input.txt:/app/input.txt -it url-enumrate
