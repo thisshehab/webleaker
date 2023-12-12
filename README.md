@@ -15,7 +15,7 @@ systemctl start docker
 
 clone the repository
 ```console
-git clone repo
+git clone [repo](https://github.com/thisshehab/webleaker.git) 
 cd webleaker
 ```
 build the image 
