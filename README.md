@@ -15,10 +15,19 @@ systemctl start docker
 
 clone the repository
 ```console
-git clone [repo](https://github.com/thisshehab/webleaker.git) 
+git clone https://github.com/thisshehab/webleaker.git
 cd webleaker
 ```
 build the image 
 ```console
 docker build -t webleaker .
+```
+## Usage
+replace the file yourinput.txt with yours one, make sure that the file format like this 
+http://example.com
+https://example.com 
+...
+
+```console
+sudo docker run -v ./yourinput.txt:/app/input.txt -it webleaker
 ```
