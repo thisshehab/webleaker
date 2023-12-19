@@ -5,12 +5,12 @@ Start grapping the Emails, BTC, and Html Comments in pdfs htmlfiles js that coul
 make sure that you have installed docker 
 
 ```console
-apt install docker.io
+sudo apt install docker.io
 ```
 
 start docker service 
 ```console
-systemctl start docker
+sudo systemctl start docker
 ```
 
 clone the repository
@@ -20,7 +20,7 @@ cd webleaker
 ```
 build the image 
 ```console
-docker build -t webleaker .
+sudo docker build -t webleaker .
 ```
 ## Usage
 replace the file yourinput.txt with yours one, make sure that the file format like this 
