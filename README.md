@@ -14,6 +14,7 @@ sudo systemctl start docker
 ```
 
 clone the repository
+
 ```console
 git clone https://github.com/thisshehab/webleaker.git
 cd webleaker
@@ -24,6 +25,7 @@ sudo docker build -t webleaker .
 ```
 ## Usage
 replace the file yourinput.txt with yours one, make sure that the file format like this.
+
 <br>
 http://example.com <br>
 https://example.com <br>
