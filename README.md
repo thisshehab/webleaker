@@ -27,7 +27,7 @@ replace the file yourinput.txt with yours one, make sure that the file format li
 <br>
 http://example.com <br>
 https://example.com <br>
-...
+and so on...
 
 ```console
 sudo docker run -v ./yourinput.txt:/app/input.txt -it webleaker
