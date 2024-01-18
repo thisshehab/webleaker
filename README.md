@@ -23,7 +23,7 @@ build the image
 sudo docker build -t webleaker .
 ```
 ## Usage
-replace the file yourinput.txt with yours one, make sure that the file format like this
+replace the file yourinput.txt with yours one, make sure that the file format like this >
 <br>
 http://example.com <br>
 https://example.com <br>
