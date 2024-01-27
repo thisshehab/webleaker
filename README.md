@@ -12,7 +12,7 @@ start docker service
 ```console
 sudo systemctl start docker
 ```
-clone the repository>
+clone the repository
 
 ```console
 git clone https://github.com/thisshehab/webleaker.git
