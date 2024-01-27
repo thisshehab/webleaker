@@ -9,7 +9,7 @@ sudo apt install docker.io
 ```
 
 start docker service 
-```console
+```consol
 sudo systemctl start docker
 ```
 clone the repository
