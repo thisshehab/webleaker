@@ -2,7 +2,7 @@
 Start grapping the Emails, BTC, and Html Comments in pdfs htmlfiles js that could be useful for your reconnaissance.
 
 ## Installation via docker
-make sure that you have installed docker.
+make sure that you have installed docker.>
 
 ```console
 sudo apt install docker.io
